@@ -10,7 +10,7 @@
 /* Left Branding Panel */
 .signup-left-panel {
     width: 50%;
-    background: linear-gradient(135deg, #102e6e 0%, #111827 100%);
+    background: linear-gradient(135deg, #01693c 0%, #111827 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +34,7 @@
 .left-panel-content {
     position: relative;
     z-index: 2;
-    max-width: 500px;
+    max-width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +42,7 @@
 }
 
 .signup-title {
-    font-size: 2rem;
+    font-size: 1.85rem;
     font-weight: 700;
     color: #ffffff;
     margin-bottom: 1rem;
@@ -50,7 +50,7 @@
 }
 
 .signup-subtitle {
-    font-size: 1.125rem;
+    font-size: 1.05rem;
     color: #e5e7eb;
     margin-bottom: 2.5rem;
     line-height: 1.6;
@@ -67,7 +67,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
-    font-size: 1rem;
+    font-size: 0.93rem;
     opacity: 0.9;
 }
 
@@ -102,34 +102,18 @@
 /* Right Signup Panel */
 .signup-right-panel {
     width: 50%;
-    background-color: #d0e1f3;
+    background-color: #e7f3e9;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    height:100vh;
 }
 
-/* glass_soft style for the auth_card */
 .signup-card {
     width: 260px;
     max-width: 260px;
     padding: 12px;
-    background: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 1rem;
-    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
-}
-
-/* For glass effect to be visible, it helps if the surrounding background has a subtle texture or slight off-white color. 
-   If left white, it's just a soft card. Let's make the right panel slightly off-white to make the glass card stand out. */
-.signup-right-panel {
-    background-color: #f8fafc;
-    /* Tailwind slate-50 */
-    background-image: radial-gradient(#e2e8f0 1px, transparent 1px);
-    background-size: 20px 20px;
+    transform: scale(0.9);
 }
 
 .card-title {
@@ -184,7 +168,8 @@
 
 .primary-button {
     width: 100%;
-    padding: 0.55rem 0.7rem;padding: 0.55rem 0.7rem;
+    padding: 0.55rem 0.7rem;
+    padding: 0.55rem 0.7rem;
     background-color: #2563eb;
     color: #ffffff;
     border: none;

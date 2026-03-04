@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Sidebar from '../components/layout/Sidebar';
 import TopBar from '../components/layout/TopBar';
-import ChatArea from '../components/chat/ChatArea';
+import ChatPage from '../components/chat/ChatPage';
 import DashboardArea from '../components/dashboard/DashboardArea';
 
 export default function Workspace() {
@@ -37,7 +37,7 @@ export default function Workspace() {
                         onOpenConcept={handleOpenConcept}
                     />
                 ) : (
-                    <ChatArea />
+                    <ChatPage />
                 )}
             </div>
         </div>
